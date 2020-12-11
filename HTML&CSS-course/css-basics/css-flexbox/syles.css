@@ -1,0 +1,26 @@
+#row{
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
+  /* flex-direction: column-reverse;
+  flex-direction: row-reverse; */
+  border: 2px solid black;
+  justify-content: center; /*center content horizontally*/
+  align-items: center; /*center content vertically*/
+  height: 300px;
+}
+
+#row div{
+  /* height: 200px; */
+  margin: 10px;
+  background-color: yellow;
+  flex-shrink: 1;
+}
+
+/* .grow{
+  flex-grow: 1;
+}
+
+.shrink{
+  flex-shrink: 1; 
+} */

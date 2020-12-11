@@ -1,0 +1,23 @@
+h1{
+  font-size: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  color : yellow;
+  background-color: black;
+}
+
+p.content{
+  color : violet;
+  font-weight: bold;
+  border: 2px solid tomato;
+  padding: 10px 0;
+}
+
+#btn{
+  color : coral;
+  background-color: black;
+}
+
+span{
+  border: 3px solid steelblue;
+}

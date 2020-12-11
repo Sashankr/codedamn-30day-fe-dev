@@ -1,0 +1,142 @@
+body{
+  padding: unset;
+  margin: unset;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 0;
+
+}
+
+nav a{
+  margin-right: 20px;
+  color: #000;
+  font-size: 15px;
+  text-decoration: none;
+
+}
+
+nav a:hover{
+  color: #888;
+  text-decoration: underline;
+}
+
+a.products{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+}
+
+a.profile{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(14, 155, 108);
+  border-radius: 50%;
+}
+
+
+#banner{
+  display: flex;
+  justify-content: center;
+  /* height: 400px; */
+}
+
+#banner img.logo{
+  object-fit: cover;
+  width: 350px;
+  height: auto;
+}
+
+#searchbox{
+  display: flex;
+  justify-content: center;
+  height: 38vh;
+}
+
+#searchbox form{
+  text-align: center;
+}
+
+p.search-area{
+  position: relative;
+}
+
+input#search{
+  padding: 1rem 3rem;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 1rem;
+  position: relative;
+}
+
+p.search-area img#search-lens{
+  position: absolute;
+  z-index: 1;
+  left: 10px;
+  top: 4px;
+}
+
+p.search-area img#mic{
+  position: absolute;  
+  right: 15px;
+  top: 10px;
+}
+
+#searchbox form button.searchbox-btn{
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #fff;
+}
+
+#searchbox form button.searchbox-btn:hover{
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+#searchbox form button.searchbox-btn a{
+  text-decoration: none;
+  color: #000;
+}
+
+#languages a.languages{
+  color: #1a0dab;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 1rem 1rem 1rem;
+}
+
+.footer-nav a{
+  color: #7d7d7d;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-nav a:hover{
+  text-decoration: underline;
+}
+
+footer h2{
+  font-size: 15px;
+  color: #7d7d7d;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    font-family: sans-serif;
+    font-size: 1rem;
+    border-left: unset;
+    border-right: unset;
+}
