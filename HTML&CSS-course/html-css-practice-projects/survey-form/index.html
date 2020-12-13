@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="container">
+    <h1 id="title">Burger 9 Survey Form</h1>
+    <p id="description">Please fill out the survey form to help us make out burgers better</p>
+  </header>
+
+  <main class="container">
+    <form action="" id="survey-form">
+      <div class="form-data">
+        <label id="name-label" for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name here" required>
+      </div>
+
+      <div class="form-data">
+        <label id="email-label" for="name">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email id here" required>
+      </div>
+
+      <div class="form-data">
+        <label id="number-label" for="name">Rate our burger</label>
+        <input type="number" min="0" max="5" id="number" placeholder="Give a rating between 0-5">
+      </div>
+
+      <div class="form-data">
+        <label for="dropdown">Select your favourite burger:</label>
+        
+        <select name="" id="dropdown">
+          <option value="veg">Veggie Burger</option>
+
+          <option value="chicken">Chicken Burger</option>
+
+          <option value="cheese">Double Cheese Burger</option>
+        </select>
+      </div>
+
+      <div class="form-data">
+        <label for="units">Average number of burgers you eat when you come in:</label>
+
+        <div class="radio">
+          <input type="radio" name="b-unit" value="1">One
+
+          <input type="radio" name="b-unit" value="2">Two
+  
+          <input type="radio" name="b-unit" value="3">Three
+        </div>
+      </div>
+
+      <div class="form-data">
+        <label for="branches">Burger 9 branches you have visited:</label>
+        <div class="checkbox">
+
+        <input type="checkbox"  value="west">West Avenue
+
+        <input type="checkbox" value="diamond">Diamond Point
+
+        <input type="checkbox" value="st7">Street 7
+        </div>
+      </div>
+
+      <div class="form-data">
+        <label for="comments">Please give us some feedback:</label>
+        <textarea id="comments" cols="30" rows="10"></textarea>
+      </div>
+
+      <div class="form-data">
+        <button type="submit" id="submit">Submit</button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>

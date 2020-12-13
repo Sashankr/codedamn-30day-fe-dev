@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
+
+.container{
+  width: 30%;
+  margin: 0 auto;
+}
+
+h1#title{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+}
+
+p#description{
+  font-family: 'Poppins', sans-serif;
+}
+
+#survey-form .form-data{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 1rem;
+}
+
+#survey-form input[type="text"], input[type="email"], input[type="number"], select#dropdown{
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+#survey-form .radio, .checkbox{
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+label{
+  margin-bottom: 5px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.25rem;
+}
+
+textarea{
+  resize: unset;
+  padding: 1rem;
+}
+
+button#submit{
+  padding: 1rem;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  border: unset;
+  outline: unset;
+  background-color: darkslategray;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+button#submit:hover{
+  background-color: coral;
+}
+
+@media (max-width:1125px){
+  .container{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
