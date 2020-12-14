@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="background-fill">
+    <header id="header">
+      <div id="logo">
+        <img id="header-img" src="./logo.png" alt="company-logo">
+      </div>
+
+      <nav id="nav-bar">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#destinations" class="nav-link">Destinations</a>
+        <a href="#contact-form" class="nav-link">Contact</a>
+      </nav>
+
+    </header>
+
+    <div id="banner" class="container">
+      <div class="banner-content">
+        <h2>Go Travels</h2>
+        <p>Experience the best places in the world</p>
+      </div>
+    </div>
+
+  </div>
+
+  <main>
+    <div class="container">
+    <div id="about">
+        <h2 class="sub-title">About</h2>
+
+        <p class="content-para">
+          Go is one of India's leading online travel portals, offering holiday packages in Middle East and Europe. Go
+          offers value for money packages, luxury packages, group departures as well as customized packages.
+        </p>
+
+        <p class="content-para d-none">
+          Go was one of the first aggregators of holiday packages and since 2015 it has provided a forum for agents and
+          holiday package sellers to sell their packages directly on Go website. This has enabled Go to give a wide
+          range of holiday packages including niche and exotic packages to its customers, while providing localised
+          services.
+        </p>
+      </div>
+
+      <div id="video">
+        <iframe width="100%" height="300" src="https://www.youtube.com/embed/AyHGlH4Nw4g" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+
+      <div id="destinations">
+        <h2 class="sub-title">Destinations</h2>
+        <p class="content-para">Experience the best places in the world with our custom made holiday packages</p>
+        <ul>
+          <li class="list-item">Turkey</li>
+          <li class="list-item">Istanbul</li>
+          <li class="list-item">Barcelona</li>
+          <li class="list-item">Madrid</li>
+          <li class="list-item">Sevilla</li>
+        </ul>
+      </div>
+
+      <div id="contact-form">
+        <h2 class="sub-title">Contact us</h2>
+        <p class="content-para">Drop us an email and we will get in touch with you within 24 hours</p>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+
+          <label for="email">Email</label>
+          <input name="email" type="email" id="email" placeholder="joe@email.com" size="30">
+
+          <input name="submit" id="submit" type="submit">
+        </form>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

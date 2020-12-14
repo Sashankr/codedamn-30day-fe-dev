@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans&display=swap');
+
+
+* {
+  padding: unset;
+  margin: unset;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem 1.5rem;
+}
+
+header #nav-bar a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  padding: 1rem 1.25rem;
+  border-radius: 30px;
+  transition: 0.4s ease-in;
+}
+
+header #nav-bar a:hover {
+  background-color: #086B64;
+}
+
+#background-fill {
+  background: url("./background.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#banner {
+
+  display: flex;
+  justify-content: flex-start;
+  height: 70vh;
+  align-items: flex-end;
+}
+
+#banner h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 5.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 1px #ccc;
+}
+
+#banner p {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  text-shadow: 0px 1px #ccc;
+}
+
+main {
+  background-color: #086B64;
+  padding: 3rem 0;
+}
+
+main h2.sub-title {
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 0.5rem 0;
+  text-transform: uppercase;
+}
+
+main p.content-para {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 1.125rem;
+  line-height: 2.5rem;
+  margin-bottom: 10px;
+}
+
+main #destinations ul {
+  list-style-type: none;
+}
+
+main #destinations ul li.list-item {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 1rem;
+}
+
+#form label {
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  font-size: 1.25rem;
+  margin-right: 1rem;
+}
+
+#form #email {
+  padding: 0.5rem 1rem;
+  font-family: 'Open Sans', sans-serif;
+  outline: unset;
+  border: unset;
+}
+
+#form #submit {
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  border: unset;
+  outline: unset;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+#form #submit:hover {
+  background-color: #052235;
+  color: #fff;
+}
+
+@media (max-width:580px) {
+  #form #submit {
+    display: block;
+    margin: 1rem 0;
+    padding: 0.25rem 1rem;
+
+  }
+
+  #form #email {
+    display: block;
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width:460px){
+
+  #banner{
+    height: 40vh;
+  }
+
+  #banner h2{
+    font-size: 3rem;
+  }
+
+  #banner p{
+    font-size: 1rem;
+  }
+
+  header #nav-bar a {
+    padding: 10px 15px;
+    display: block;
+  }
+
+  #background-fill {
+    background: url("./background.jpg") no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-position: top right;
+  }
+
+  main p.content-para{
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  main p.d-none{
+    display: none;
+  }
+
+  main{
+    padding: 1rem 0;
+  }
+}
