@@ -14,4 +14,4 @@ let stop =  setInterval( () =>{
   if(count ==100){
     clearInterval(stop);
   } 
-},20)
+},100)
