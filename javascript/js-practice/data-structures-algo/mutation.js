@@ -14,26 +14,30 @@ The arguments ["hello", "hey"] should return false because the string "hello" do
 
 
 function mutation(arr) {
-  let word1 = arr[0].split('');
-  let word2 = arr[1].split('');
+  let word1 = arr[0].toLowerCase();
+  let word2 = arr[1].toLowerCase();
+  console.log(word1, word2);
+  console.log("w2 length: ",word2.length);
 
-  console.log(word1);
-  console.log(word2);
-  let matching=0;
+  let matching = 0;
 
-  for(let i=0;i<word1.length;i++){
-    if(word2.includes(word1[i])){
+  for (let i = 0; i < word2.length; i++) {
+   // console.log(word2.charAt(i));
+    if (word1.includes(word2.charAt(i))) {
       matching++;
-   }
   }
-
-  if(matching !== word1.length){
-    console.log(matching);
-    return false;
+  // console.log("Matching words: ",matching);
   }
-
-  return true;
   
+
+  if (matching == word2.length) {
+    console.log("All words match");
+    return true;
+  }
+  else {
+    console.log(word2.length-matching ,"words not matching");
+    return false
+  }
 }
 
-console.log(mutation(["heyd", "heya"]));
+console.log(mutation(["hello", "hey"]));
