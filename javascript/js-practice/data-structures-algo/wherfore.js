@@ -9,40 +9,22 @@ For example, if the first argument is [{ first: "Romeo", last: "Montague" }, { f
 */
 
 function whatIsInAName(collection, source) {
-  var arr = [];
-  let property = [];
-  let prop_Value =[];
-  // Only change code below this line
-  console.log(collection);  
-  for(let [key,value] of Object.entries(source)){
-    // console.log(key,value);
-    property.push(key);
-    prop_Value.push(value);
-  }
-
-  for(let i=0;i<collection.length;i++){
-    if(collection[i][property[i]]===prop_Value[i]){
-      arr.push(collection[i]);
+  // var arr = [];
+  let srcKeys = Object.keys(source);
+  
+  return collection.filter( (obj)=>{
+    for(key of srcKeys){
+      if(!obj.hasOwnProperty(key) || obj[key]!==source[key]){
+        return false;
+      }
     }
-  }
-  console.log(prop_Value);
-  console.log(property);
-  console.log(collection[0][property]);
-  return arr;
+    return true;
+  });
+
 }
 
-console.log(whatIsInAName(
-  [
-      { 
-          first: "Romeo", 
-          last: "Montague" 
-      }, 
-      { 
-          first: "Mercutio",
-          last: null 
-      },
-      { 
-          first: "Tybalt",
-          last: "Capulet" 
-      }
-  ], { last: "Capulet" }));
+let res = whatIsInAName([{ "apple": 1, "bat": 2 }, { "apple": 1 }, { "apple": 1, "bat": 2, "cookie": 2 }, { "bat":2 }], { "apple": 1, "bat": 2 });
+
+console.log(res);
+//should return [{ "apple": 1 }, { "apple": 1 }, { "apple": 1, "bat": 2 }].
+
