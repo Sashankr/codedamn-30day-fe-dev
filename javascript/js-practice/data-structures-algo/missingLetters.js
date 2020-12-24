@@ -9,19 +9,13 @@ If all letters are present in the range, return undefined.
 */
 
 function fearNotLetter(str) {
-  
-  let alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
-  console.log(alphabet);
-  
-  str = str.split('');
 
-  for(let i=0;i<alphabet.length;i++){
-    if(!alphabet.includes(str)){
-      console.log(str[i]);
+  for (let i = 1; i < str.length; ++i) {
+    if (str.charCodeAt(i) - str.charCodeAt(i - 1) > 1) {
+      return String.fromCharCode(str.charCodeAt(i - 1) + 1);
     }
   }
 
 
 }
-
-fearNotLetter("abce");
+console.log(fearNotLetter("abce"));
