@@ -1,0 +1,46 @@
+.popup{
+  padding: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  cursor: pointer;
+  width: 400px;
+  margin-bottom: 1rem;
+  transition: 0.3s ease;
+  background-color: khaki;
+}
+
+.popup:hover{
+  background-color: burlywood;
+}
+
+.close{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #000;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.output{
+  position: absolute;
+  background-color: indianred;
+  left: 35%;
+  width: 50%;
+  padding: 15px;
+  border: 1px solid beige;
+  height: 25%;
+  opacity: 1;
+  transition: 0.3s linear;
+}
+
+.message{
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+.hide{
+  opacity: 0;
+}
