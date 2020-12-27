@@ -10,4 +10,5 @@
 ## Basic JavaScript Projects
 
 [Tip Calculator](https://sashankr.github.io/codedamn-30day-fe-dev/javascript/js-projects/tip-calculator)  
-[Calculator](https://sashankr.github.io/codedamn-30day-fe-dev/javascript/js-projects/Calculator)
+[Calculator](https://sashankr.github.io/codedamn-30day-fe-dev/javascript/js-projects/Calculator)  
+[Popup Modal](https://sashankr.github.io/codedamn-30day-fe-dev/javascript/js-projects/popup-login)
