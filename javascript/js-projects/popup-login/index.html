@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Popup</title>
+</head>
+<body>
+  
+<div class="container">
+
+  <div class="output hidden">
+    <div class="close">&#10005;</div>
+    <div class="heading">h1</div>
+    <div class="message"></div>
+  </div>
+
+  <div class="signup hidden">
+    <p>
+      <label for="fullname">Full Name</label>
+      <input type="text" name="fullname" id="fname">
+    </p>
+
+    <p>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email">
+    </p>
+
+    <p>
+      <label for="pword">Password</label>
+      <input type="password" name="password" id="password">
+    </p>
+
+    <button type="button" class="popup-trigger">Sign Up</button>
+  </div>
+
+  <div class="signin hidden">
+    <p>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="sin-email">
+    </p>
+
+    <p>
+      <label for="pword">Password</label>
+      <input type="password" name="password" id="sin-password">
+    </p>
+
+    <button type="button">Sign In</button>
+  </div>
+
+  <div class="buttons">
+    <button type="button" data-message="Sign Up" class="popup-trigger">Sign Up</button>
+    <button type="button" data-message="Sign In" class="popup-trigger">Sign In</button>
+  </div>
+
+</div>
+
+
+  <script src="./script.js"></script>
+</body>
+</html>
