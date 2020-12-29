@@ -13,4 +13,5 @@
 [Calculator](https://sashankr.github.io/codedamn-30day-fe-dev/javascript/js-projects/Calculator)  
 [Popup Modal](https://sashankr.github.io/codedamn-30day-fe-dev/javascript/js-projects/popup-login)  
 [Block Mover](https://sashankr.github.io/codedamn-30day-fe-dev/javascript/js-projects/functionator)  
+[Email Extractor](https://sashankr.github.io/codedamn-30day-fe-dev/javascript/js-projects/email-extractor)  
 [Car Driving Game](https://sashankr.github.io/codedamn-30day-fe-dev/javascript/js-projects/car-driving)
