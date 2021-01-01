@@ -16,4 +16,5 @@
 [Email Extractor](https://sashankr.github.io/codedamn-30day-fe-dev/javascript/js-projects/email-extractor)  
 [Car Driving Game](https://sashankr.github.io/codedamn-30day-fe-dev/javascript/js-projects/car-driving)  
 [Dice Roll Game](https://sashankr.github.io/codedamn-30day-fe-dev/javascript/js-projects/dice-roller-js)  
-[Flying Bird Game](https://sashankr.github.io/codedamn-30day-fe-dev/javascript/js-projects/flying-bird)
+[Flying Bird Game](https://sashankr.github.io/codedamn-30day-fe-dev/javascript/js-projects/flying-bird)  
+[Typing Test](https://sashankr.github.io/codedamn-30day-fe-dev/javascript/js-projects/typing-test)
