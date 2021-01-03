@@ -15,7 +15,7 @@ p#unique-para{
   color: gold;
 }
 
-#para.bg{
+#para.bg{/*Score of 110*/
   background-color: palegreen;
   color: wheat;
   padding: 1rem 2rem;
